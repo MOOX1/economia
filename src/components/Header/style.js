@@ -2,14 +2,20 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100vw;
-  height: 200px;
+  height: 120px;
   background-color: #1cc9ef;
   display: flex;
   justify-content: center;
 `;
 
 export const Content = styled.div`
-  margin-top: 50px;
+  margin-top: 20px;
 `;
 
-export const H1 = styled.h1``;
+export const H1 = styled.h1`
+
+@media (max-width: 600px) {
+  font-size: 20px;
+  
+}
+`;
