@@ -14,8 +14,8 @@
     "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "resolveJsonModule": true,
     "isolatedModules": true,
+    "resolveJsonModule": true,
     "jsx": "preserve"
   },
   "include": [

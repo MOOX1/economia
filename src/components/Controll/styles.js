@@ -44,5 +44,6 @@ export const Input = styled.input`
   accent-color: black;
 `;
 
+export const Label = styled.label``;
 export const Title = styled.p``;
 export const Div = styled.div``;

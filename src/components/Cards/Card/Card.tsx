@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 import * as C from "./styles";
 
-export const Card = (props: { margin: number; title: string; icon: any }) => {
+interface props {
+  margin: number;
+  title: string;
+  valor: number
+  icon: JSX.Element;
+}
+
+export const Card = (props: props) => {
   return (
     <C.Container margin={props.margin}>
       <C.Content>
@@ -10,7 +17,7 @@ export const Card = (props: { margin: number; title: string; icon: any }) => {
           <C.icon>{props.icon}</C.icon>
         </C.Header>
         <C.Total>
-          <C.totalTitle> 1000 </C.totalTitle>
+          <C.totalTitle> {props.valor} </C.totalTitle>
         </C.Total>
       </C.Content>
     </C.Container>

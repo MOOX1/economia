@@ -1,0 +1,16 @@
+{
+  "entradas": [
+    {
+      "id": 2354,
+      "decricao": "Salario",
+      "valor": 3000
+    }
+  ],
+  "saidas": [
+    {
+      "id": 23545,
+      "descricao": "Churrasco",
+      "valor": 200
+    }
+  ]
+}
