@@ -7,6 +7,7 @@ interface props {
   onClick: Function,
   onChangeDescricao: Function,
   onChangeValor: Function
+  adicionar: Function
 }
 
 export const Controll : React.FC<props> = (props: props) => {
@@ -33,7 +34,7 @@ export const Controll : React.FC<props> = (props: props) => {
             <C.Label for="RadioSaida"> Saida </C.Label>
           </C.DivRadio>
         </C.DivRadio>
-        <C.Buttom> ADICIONAR </C.Buttom>
+        <C.Buttom onClink={props.adicionar}> ADICIONAR </C.Buttom>
       </C.Content>
     </C.Container>
   );
