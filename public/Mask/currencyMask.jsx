@@ -7,7 +7,7 @@ const CurrencyMask = createNumberMask({
     thousandsSeparatorSymbol:'.',
     allowDecimal: true,
     decimalSymbol: ',',
-    decimalLimit: 2,
+    decimalLimit: 3,
     intergerLimit: null,
     allowNegative: false,
     requireDecimal: false,

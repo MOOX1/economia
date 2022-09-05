@@ -23,7 +23,7 @@ const Home = () => {
   const [valorTotal, setValorTotal] = useState<number>(0.0);
   const [descricao, setDescricao] = useState<string>("");
   const [data, setData] = useState<data>();
-  const [valor, setValor] = useState<number>();
+  const [valor, setValor] = useState<string>();
 
   const PegandoDados = () => {
     fetch("http://localhost:3001")
@@ -53,9 +53,11 @@ const Home = () => {
   }, []);
 
   const AdicionarDados = () => {
+    let valorReplaced = valor.replace(",",".")
+    console.log(valorReplaced)
     const tipo = isChecked ? "entradas" : "saidas";
     fetch(
-      `http://localhost:3001/?descricao=${descricao}&valor=${valor}&tipo=${tipo}`
+      `http://localhost:3001/?descricao=${descricao}&valor=${valorReplaced}&tipo=${tipo}`
     ).then(() => PegandoDados());
   };
 
@@ -79,10 +81,8 @@ const Home = () => {
   };
 
   const handleValor = (e: number) => {
-    let ei = e.toLocaleString().replace(".", "").replace(".","").replace(".", "").replace(",",".")
-    
-    setValor(Number(ei))
-    console.log(Number(ei))
+    let ei = e.toLocaleString("pt-br", { maximumFractionDigits: 2}).replace(/[.]/g, "" )  
+    setValor(ei)
   };
 
   return (

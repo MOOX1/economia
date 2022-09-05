@@ -1,4 +1,20 @@
 {
-  "entradas": [],
+  "entradas": [
+    {
+      "descricao": "t",
+      "valor": 150000,
+      "id": 78716
+    },
+    {
+      "descricao": "t",
+      "valor": 250.5,
+      "id": 70186
+    },
+    {
+      "descricao": "k",
+      "valor": 250,
+      "id": 8278
+    }
+  ],
   "saidas": []
 }

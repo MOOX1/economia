@@ -11,7 +11,7 @@ interface props {
   onChangeDescricao: Function,
   onChangeValor: any,
   adicionar: Function,
-  value: number
+  value: string
 }
 
 export const Controll : React.FC<props> = (props: props) => {
