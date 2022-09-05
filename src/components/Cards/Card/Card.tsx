@@ -4,7 +4,7 @@ import * as C from "./styles";
 interface props {
   margin: number;
   title: string;
-  valor: number
+  valor: JSX.Element
   icon: JSX.Element;
 }
 

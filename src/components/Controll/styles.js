@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   background-color: white;
-  width: 66vw;
+  width: 65vw;
   display: flex;
   justify-content: space-around;
   align-items: center;

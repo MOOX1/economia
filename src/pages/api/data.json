@@ -1,26 +1,4 @@
 {
-  "entradas": [
-    {
-      "id": 2354,
-      "decricao": "Salario",
-      "valor": 3000
-    },
-    {
-      "id": 2354,
-      "decricao": "Salario 2",
-      "valor": 3000
-    }
-  ],
-  "saidas": [
-    {
-      "id": 23545,
-      "descricao": "Churrasco",
-      "valor": 200
-    },
-    {
-      "descricao": "teste",
-      "valor": 500,
-      "id": 5267
-    }
-  ]
+  "entradas": [],
+  "saidas": []
 }

@@ -27,17 +27,20 @@ http
     });
     
     if (del) {
-      if ( tipo == "entradas") {
-        data.entradas = data.entradas.filter(
-          (item) => String(item.id) !== String(id)
-        );
-        return write((message) => res.end(message));
-      } else if ( tipo == "saidas") {
-        data.saidas = data.saidas.filter(
-          (item) => String(item.id) !== String(id)
-        );
-        return write((message) => res.end(message));
-      }
+       const entradaLog = data.entradas = data.entradas.filter(
+          (item) => String(item.id) !== String(id))
+          if ( !entradaLog) {
+            return write((message) => res.end(message))
+          } else {
+            
+            data.saidas = data.saidas.filter(
+              (item) => String(item.id) !== String(id)
+              );
+              return write((message) => res.end(message))
+          }
+      // } else if ( tipo == "saidas") {
+      //   return write((message) => res.end(message));
+      // }
     }
 
     //all recurces
@@ -47,10 +50,10 @@ http
 
 
     if (tipo == "saidas") {
-      data.saidas.push({ descricao, valor, id : Math.floor(Math.random() * 100000) });
+      data.saidas.unshift({ descricao, valor: parseFloat(valor), id : Math.floor(Math.random() * 100000) });
       return write((message) => res.end(message));
     } else if (tipo == "entradas") {
-      data.entradas.push({ descricao, valor, id : Math.floor(Math.random() * 100000)});
+      data.entradas.unshift({ descricao, valor: parseFloat(valor), id : Math.floor(Math.random() * 100000)});
       return write((message) => res.end(message));
     }
   })

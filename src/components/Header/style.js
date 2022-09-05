@@ -6,10 +6,11 @@ export const Container = styled.div`
   background-color: #1cc9ef;
   display: flex;
   justify-content: center;
-`;
+  `;
 
 export const Content = styled.div`
   margin-top: 20px;
+  overflow: hidden;
 `;
 
 export const H1 = styled.h1`

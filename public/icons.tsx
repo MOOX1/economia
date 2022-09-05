@@ -1,19 +1,115 @@
 import React from "react";
 
 export const iconSaida = (
-  <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
-    <path d="m10 13 3-3-1.062-1.062-1.188 1.187V7h-1.5v3.125L8.062 8.938 7 10Zm0 5q-1.646 0-3.104-.625-1.458-.625-2.552-1.719t-1.719-2.552Q2 11.646 2 10q0-1.667.625-3.115.625-1.447 1.719-2.541Q5.438 3.25 6.896 2.625T10 2q1.667 0 3.115.625 1.447.625 2.541 1.719 1.094 1.094 1.719 2.541Q18 8.333 18 10q0 1.646-.625 3.104-.625 1.458-1.719 2.552t-2.541 1.719Q11.667 18 10 18Zm0-1.5q2.708 0 4.604-1.896T16.5 10q0-2.708-1.896-4.604T10 3.5q-2.708 0-4.604 1.896T3.5 10q0 2.708 1.896 4.604T10 16.5Zm0-6.5Z" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="black"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="feather feather-arrow-up-circle"
+  >
+    <circle cx="12" cy="12" r="10"></circle>
+    <polyline points="16 12 12 8 8 12"></polyline>
+    <line x1="12" y1="16" x2="12" y2="8"></line>
   </svg>
 );
 
 export const iconEntrada = (
-  <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
-    <path d="m10 12.604 3.375-3.375-1.063-1.062L10 10.479 7.688 8.167 6.625 9.229ZM10 18q-1.646 0-3.104-.625-1.458-.625-2.552-1.719t-1.719-2.552Q2 11.646 2 10q0-1.667.625-3.115.625-1.447 1.719-2.541Q5.438 3.25 6.896 2.625T10 2q1.667 0 3.115.625 1.447.625 2.541 1.719 1.094 1.094 1.719 2.541Q18 8.333 18 10q0 1.646-.625 3.104-.625 1.458-1.719 2.552t-2.541 1.719Q11.667 18 10 18Zm0-1.5q2.708 0 4.604-1.896T16.5 10q0-2.708-1.896-4.604T10 3.5q-2.708 0-4.604 1.896T3.5 10q0 2.708 1.896 4.604T10 16.5Zm0-6.5Z" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="black"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="feather feather-arrow-down-circle"
+  >
+    <circle cx="12" cy="12" r="10"></circle>
+    <polyline points="8 12 12 16 16 12"></polyline>
+    <line x1="12" y1="8" x2="12" y2="16"></line>
   </svg>
 );
 
 export const iconTotal = (
-  <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
-    <path d="M9.25 17v-1.667q-1.062-.229-1.823-.958-.76-.729-1.073-1.813l1.542-.624q.166.75.844 1.343.677.594 1.406.594.812 0 1.333-.417.521-.416.521-1.083 0-.625-.469-1.042-.469-.416-1.656-.833Q8.25 9.917 7.5 9.219t-.75-1.802q0-1.042.677-1.792t1.823-.979V3h1.5v1.646q1.5.25 2.01 1.146.511.896.532.937l-1.459.604q-.166-.541-.666-.895-.5-.355-1.105-.355-.729 0-1.208.375t-.479.917q0 .542.521.927.521.386 1.937.865 1.459.479 2.125 1.25.667.771.667 1.958 0 1.187-.771 2t-2.104 1.021V17Z" />
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="black"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="feather feather-dollar-sign"
+  >
+    <line x1="12" y1="1" x2="12" y2="23"></line>
+    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+  </svg>
+);
+
+export const iconEntradaGreen = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="green"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="feather feather-arrow-down-circle"
+  >
+    <circle cx="12" cy="12" r="10"></circle>
+    <polyline points="8 12 12 16 16 12"></polyline>
+    <line x1="12" y1="8" x2="12" y2="16"></line>
+  </svg>
+);
+
+export const iconSaidaRed = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="red"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="feather feather-arrow-down-circle"
+  >
+    <circle cx="12" cy="12" r="10"></circle>
+    <polyline points="8 12 12 16 16 12"></polyline>
+    <line x1="12" y1="8" x2="12" y2="16"></line>
+  </svg>
+);
+
+export const lixo = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="black"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="feather feather-trash-2"
+  >
+    <polyline points="3 6 5 6 21 6"></polyline>
+    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+    <line x1="10" y1="11" x2="10" y2="17"></line>
+    <line x1="14" y1="11" x2="14" y2="17"></line>
   </svg>
 );
