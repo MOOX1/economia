@@ -11,5 +11,5 @@ export const Content = styled.div`
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 70vw;
+  width: 75vw;
 `;

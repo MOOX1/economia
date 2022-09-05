@@ -1,20 +1,41 @@
 {
   "entradas": [
     {
-      "descricao": "t",
-      "valor": 150000,
-      "id": 78716
+      "descricao": "Salaeio",
+      "valor": 0.5,
+      "id": 37415
     },
     {
-      "descricao": "t",
+      "descricao": "Salaeio",
       "valor": 250.5,
-      "id": 70186
+      "id": 19172
     },
     {
-      "descricao": "k",
-      "valor": 250,
-      "id": 8278
+      "descricao": "Salaeio",
+      "valor": 2500,
+      "id": 97837
+    },
+    {
+      "descricao": "Salaeio",
+      "valor": 2500,
+      "id": 63173
     }
   ],
-  "saidas": []
+  "saidas": [
+    {
+      "descricao": "Salaeio",
+      "valor": 0.5,
+      "id": 89185
+    },
+    {
+      "descricao": "Salaeio",
+      "valor": 2500.5,
+      "id": 75963
+    },
+    {
+      "descricao": "Salaeio",
+      "valor": 2500,
+      "id": 9024
+    }
+  ]
 }

@@ -9,7 +9,7 @@ export const Container = styled.ul`
 export const Content = styled.div`
   width: 65vw;
   background-color: white;
-  height: 350px;
+  height: 300px;
   border-radius: 5px;
   padding: 10px;
   overflow-y: scroll;
